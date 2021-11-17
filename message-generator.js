@@ -8,7 +8,7 @@ const chooseRandomListItem = list => {
 
 const generateRandomSandwich = () => {
     let bread = chooseRandomListItem(breads);
-    if (bread !== "Lettuce Wrap"){
+    if (bread !== "Lettuce Wrap") { // Format the output to be grammatically correct for lettuce wrap vs. typical breads
         bread = bread + " bread";
     } else {
         bread = "a " + bread;
